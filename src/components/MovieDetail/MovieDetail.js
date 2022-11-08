@@ -15,7 +15,7 @@ const MovieDetail = () => {
   const data = useSelector(getSelectedMovieOrShow);
 
   useEffect(() => {
-    // dispatch(fetchAsyncMovieOrShowDetail(imdbID));
+    dispatch(fetchAsyncMovieOrShowDetail(imdbID));
     return () => {
       dispatch(removeSelectedMovieOrShow());
     };
