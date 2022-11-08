@@ -26,3 +26,5 @@ Follow the [youtube tutorial](https://www.youtube.com/watch?v=2kL28Qyw9-0&list=P
 + node-sass
 + axios
 + react-router-dom
+## screenshot
+![screenshot](./src/images/screenshot.png)
